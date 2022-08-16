@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "sort.h"
 
 /**
@@ -8,7 +6,6 @@
  * @size: size of elements in @array
  * Return: Always 0
  */ 
-
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
